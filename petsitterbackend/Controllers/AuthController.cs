@@ -24,7 +24,7 @@ namespace petsitterbackend.Controllers
         public List<User> GetAllUsers()
         {
             List<User> oList = new List<User>();
-            oList.Add(new User(1, "Mario", "Rossi", 1111111111L, "+396565655454", "mario@rossi.it", "mariorossi"));
+            oList.Add(new User(1, "Lucia", "Rossi", 1111111111L, "+396565655454", "mario@rossi.it", "mariorossi"));
             oList.Add(new User(2, "Giuseppe", "Verdi", 121212111L, "+396455454545", "giuseppe@verdi.it", "giuseppeverdi"));
 
 
